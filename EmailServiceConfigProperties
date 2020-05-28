@@ -1,15 +1,14 @@
-EmailServiceConfigProperties
-      email-service
-            default
-                  email-service.yml
-            dev
-                  email-service.yml
-            prod
-                  email-service.yml
-      user-service
-            default
-                  user-service.yml
-            dev
-                  user-service.yml
-            prod
-                  user-service.yml
+email-service
+      default
+            email-service.yml
+      dev
+            email-service.yml
+      prod
+            email-service.yml
+user-service
+      default
+            user-service.yml
+      dev
+            user-service.yml
+      prod
+            user-service.yml
