@@ -14,8 +14,8 @@ spring:
   mail:
     host: smtp.empsis.com.br
     port: 587
-    username: hardware@empsis.com.br
-    password: trufa@20
+    username: <username>
+    password: <password>
     properties.mail.smtp:
       auth: true
       starttls.enable: true
