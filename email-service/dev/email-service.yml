@@ -12,10 +12,10 @@ spring:
     topic:
       userRegistered: USER_REGISTERED_TOPIC
   mail:
-    host: smtp.empsis.com.br
+    host: smtp.<domain>.com
     port: 587
-    username: hardware@empsis.com.br
-    password: trufa@20
+    username: <username>
+    password: <password>
     properties.mail.smtp:
       auth: true
       starttls.enable: true
