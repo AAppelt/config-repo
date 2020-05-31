@@ -8,14 +8,14 @@ spring:
     username: sa
     password:
   kafka:
-    bootstrap-servers: 172.18.0.3:9092
+    bootstrap-servers: 192.168.1.100:9092
     topic:
       userRegistered: USER_REGISTERED_TOPIC
   mail:
-    host: smtp.gmail.com
+    host: smtp.empsis.com.br
     port: 587
-    username: shashank.rastogi1419@gmail.com
-    password: SRinUK@123
+    username: hardware@empsis.com.br
+    password: trufa@20
     properties.mail.smtp:
       auth: true
       starttls.enable: true
